@@ -28,7 +28,7 @@ invidious_api = InvidiousAPI()
 
 @app.route('/')
 def index():
-    return render_template('player.html')
+    return render_template('index.html')
 
 @app.route('/api/fetch', methods=['GET'])
 def fetch_video():
